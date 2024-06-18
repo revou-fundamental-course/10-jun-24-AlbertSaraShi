@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Albert Konversi Suhu</title>
+        <!-- ini link css -->
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
-        <header>
-            <h1>Wibesite Konversi Suhu</h1>
+    <body class="body">
+        <header class="header-container">
+            <h1 class="h1">Webesite Konversi Suhu</h1>
+            <h3 class="h3">Suhu atau temperatur adalah alat yang menunjukkan derajat atau ukuran panas suatu benda. Mudahnya, semakin tinggi suhu suatu benda, semakin panas benda tersebut. Secara mikroskopis, suhu menunjukkan energi yang dimiliki oleh suatu benda.</h3>
         </header>
+        <!-- main content -->
+        <main>
+             <div class="content-container">
+                <h2 class="h2">Masukan Suhu Derajat Celcius &deg;c</h2>
 
+                <!-- section celcius -->
+                 <section class="celcius-container">
+                    <header>
+                        <h3 class="h3">Celcius (&deg;c)</h3>
+                    </header>
+    
+                    <section>
+                        <textarea></textarea>
+    
+                        <section>
+                            <button class="button grenn">Konfersi</button>
+                            <button class="button red">Reset</button>
+                            <button class="button blue">Reverse</button>
+                        </section>
+                    </section>
+                 </section>
+                <!-- section celcius end -->
+    
+                 <section class="result-container">
+                   <!-- section fahrenheit -->
+                  <section>
+                    <header>
+                        <h3 class="h3">Fahrenheit (&deg;F)</h3>
+                    </header>
+    
+                    <section>
+                        <textarea></textarea>
+                    </section>
+                  </section>
+    
+                   <!-- section calculate -->
+                  <section>
+                    <header>
+                        <h3 class="h3">Convertion Calculate</h3>
+                    </header>
+    
+                    <section>
+                        <textarea></textarea>
+                    </section>
+                  </section>
+                 </section>
+                </div>
+            <!-- section formula/info -->
+             <section class="formula-container">
+                 <header>
+                    <h1 class="h1">Cara Konfersi Dari Celcius (&deg;C) Ke Fahrenheit (&deg;F)</h1>
+                 </header>
+                 <h4 class="h4">Suhu <span class="subject-info">S</span> Dalam Derajat Fahrenheit (&deg;F) Sama Dengan Suhu <span class="subject-info">S</span> Dalam Derajat Celcius (&deg;C) Kali 9/5 tambah 32 </h4>
+                 <p class="p">
+                    <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> × 9/5) + 32             
+                 </p>
+                 <p class="p">
+                   ATAU          
+                 </p>
+                 <p class="p">
+                    <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> × 1.8) + 32             
+                 </p>
+             </section> 
+        </main>
+        <hr>
+        <!-- Footer -->
+        <div class="footer-container">
+            <P class="p">Yang Membuat Website ini</P>
+            <P class="p">Albert</P>
+            <div class="a-img">
+                <a href="https://instagram.com/alrydj">
+                   <img src="assets/IG.png" width="8%" height="8%">
+                </a>
+                <p>IG</p>
+            </div>
+        </div>
+        <!-- ini link javascript -->
         <script src="js/script.js"></script>
     </body>
+
 </html>

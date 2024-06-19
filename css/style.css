@@ -20,7 +20,7 @@
 .content-container {
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    height: 450px;
+    height: 520px;
     display: flow-root;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-color: rgba(2, 2, 2, 0.274);
@@ -142,6 +142,17 @@ textarea:hover {
     font-size: 17px;
 }
 
+.silver:hover {
+    background-color: #636c6e;
+    border: #d5d5d5;
+    color: rgb(23, 23, 23);
+    transition: .2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 10px;
+    box-shadow: 1px 2px#a2a2a2;
+    font-size: 17px;
+}
+
 .subject-info {
     font-size: 24px;
     font-style: italic;
@@ -156,3 +167,4 @@ textarea:hover {
     padding: 25px;
     font-family: system-ui;
 }
+/* Website Ini Dibuat oleh Albert Surya Atmadja */

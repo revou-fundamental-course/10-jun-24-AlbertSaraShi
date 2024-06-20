@@ -1,5 +1,6 @@
 /* ini css */
 
+/* Tampilan Komputer */
 .body {
     background-image: url(../assets/DarkForest.jpg);
     background-attachment: fixed;
@@ -30,6 +31,11 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    transform: scale(0.8);
+    animation: fadeInScale 1s forwards;
+    opacity: 0;
+    animation-delay: 0.1s;
+    
 }
 
 .formula-container {
@@ -43,6 +49,10 @@
     margin-left: 50px;
     margin-right: 50px;
     height: 600px;
+    transform: scale(0.8);
+    animation: fadeInScale 1s forwards;
+    opacity: 0;
+    animation-delay: 0.1s;
 }
 
 .footer-container {
@@ -52,7 +62,7 @@
     flex-wrap: wrap;
     background-color: #232d45;
     padding: 10px;
-    height: fit-content;
+    height: 120px;
     gap: 5px;
     justify-content: center;
     align-items: center;
@@ -97,6 +107,7 @@ textarea:hover {
     text-align: center;
 }
 
+/* button style */
 .button {
     background-color: #c5c9b8;
     border: 1px solid #a2a2a2;
@@ -167,4 +178,62 @@ textarea:hover {
     padding: 25px;
     font-family: system-ui;
 }
-/* Website Ini Dibuat oleh Albert Surya Atmadja */
+
+/*tampilan Hp */
+@media (max-width: 600px) {
+    .header-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .button {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .content-container {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 670px;
+    }
+
+    .formula-container {
+        text-align: center;
+        height: 830px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .result-container {
+        display: block;
+    }
+    
+    .footer-container {
+        height: 110px;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+
+    textarea {
+        font-size: 18px;
+    }
+    
+    .body {
+        background-image: url(../assets/DarkForest.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+    }
+}
+
+/*Animasi ketika web dibuka */
+@keyframes fadeInScale {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Website Ini Dibuat Oleh Albert Surya Atmadja. */

@@ -76,4 +76,4 @@ document.getElementById('resetButton').addEventListener('click', resetValues);
 // Menambah event listener ke tombol Copy
 document.getElementById('copyButton').addEventListener('click', copyToClipboard);
 
-//Website Ini Dibuat oleh Albert Surya Atmadja//
+//Website Ini Dibuat oleh Albert Surya Atmadja.//
